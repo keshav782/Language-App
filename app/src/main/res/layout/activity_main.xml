@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context=".MainActivity">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/category_numbers">
+  <TextView
+      android:id="@+id/number"
+      style="@style/miwok"
+      android:text="@string/Category_Number"
+      android:textColor="@android:color/white"
+      android:background="@color/category_numbers"
+
+      />
+  </FrameLayout>
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/category_numbers">
+    <TextView
+       android:id="@+id/family"
+        style="@style/miwok"
+        android:text="@string/Category_Family"
+        android:background="@color/category_family"/>
+  </FrameLayout>
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/category_numbers">
+    <TextView
+       android:id="@+id/color"
+        style="@style/miwok"
+        android:text="@string/Category_Color"
+        android:background="@color/category_colors"/>
+  </FrameLayout>
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/category_numbers">
+    <TextView
+       android:id="@+id/phrase"
+        style="@style/miwok"
+        android:text="@string/Category_phrases"
+        android:background="@color/category_phrases"/>
+  </FrameLayout>
+
+</LinearLayout>
